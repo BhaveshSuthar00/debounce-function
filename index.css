@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    background-color: pink;
+    width: 100%;
+    margin-bottom: 10%;
+    padding: 4px 0;
+    border: 1px solid black;
+    justify-content: center;
+}
+.container > #movie {
+    width: 50%;
+    padding: 10px;
+}
+#searchResult {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 34px;
+}
